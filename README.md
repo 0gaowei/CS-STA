@@ -99,3 +99,6 @@
 5. Pull Request：向主仓库提交Pull Request，等待各个方向组长审核和合并。
 
 如果发现项目出现问题，或者学习资源失效等其他问题，开源发起GitHub Issues：通过GitHub Issues提交问题和建议。
+若有其他问题可以邮箱联系：0gaowei@gmail.com
+
+本项目仅供学习使用，若有侵权请联系删除。
