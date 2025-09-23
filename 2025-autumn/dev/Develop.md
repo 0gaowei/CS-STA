@@ -1,7 +1,7 @@
 # Frontend/Backend Learning Roadmap
 
 ## 负责人 (Person in charge)
-(Chen Jiawei)
+(Chen Jiawei) [0gaowei](https://github.com/0gaowei)
 
 ## 学期目标 (Semester Goals)
 
