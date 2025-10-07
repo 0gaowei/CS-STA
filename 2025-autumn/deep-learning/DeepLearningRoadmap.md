@@ -1,7 +1,7 @@
 # Deep Learning Learning Roadmap
 
 ## 负责人 (Person in charge)
-(Bai Lei)
+[Bai Lei](https://github.com/bury862)
 
 ## 学期目标 (Semester Goals)
 
