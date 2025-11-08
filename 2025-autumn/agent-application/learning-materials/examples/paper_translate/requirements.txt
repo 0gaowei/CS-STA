@@ -1,0 +1,7 @@
+pydantic-ai
+openai
+python-dotenv
+requests
+logfire
+pydantic
+tqdm
