@@ -25,13 +25,13 @@
 
 - **负责人**：Yang Jinbo
 - **学习内容**：学习数据挖掘基础，掌握Python、Numpy、Pandas等工具，学习机器学习算法，进行数据可视化分析。
-- **学习路径**：[DataAnalysisRoadmap.md](../../AI/数据分析/2025-autumn/DataAnalysisRoadmap.md)
+- **学习路径**：[DataAnalysisRoadmap.md](../../方向/AI/数据分析/2025-autumn/DataAnalysisRoadmap.md)
 
 #### 深度学习
 
 - **负责人**：[Bai Lei](https://github.com/bury862)
 - **学习内容**：入门深度学习基础，学习线性回归、逻辑回归、神经网络等模型，掌握PyTorch框架。
-- **学习路径**：[DeepLearningRoadmap.md](../../AI/深度学习/2025-autumn/DeepLearningRoadmap.md)
+- **学习路径**：[DeepLearningRoadmap.md](../../方向/AI/深度学习/2025-autumn/DeepLearningRoadmap.md)
 
 ### DEV（开发组）
 
@@ -39,55 +39,38 @@
 
 - **负责人**：[0gaowei](https://github.com/0gaowei)
 - **学习内容**：学习计算机网络基础，掌握前后端开发技术，学习API设计和数据库交互，搭建个人博客项目。
-- **学习路径**：[Develop.md](../../DEV/DEV/2025-autumn/Develop.md)
+- **学习路径**：[Develop.md](../../方向/DEV/DEV/2025-autumn/Develop.md)
 
 #### Agent应用
 
 - **负责人**：(Pu Yansong) [song0705](https://github.com/song0705)
 - **学习内容**：了解Agent概念，学习在Coze平台搭建Agent应用，掌握Python基础语法，学习大模型API调用和Agent框架开发。
-- **学习路径**：[AgentApplicationRoadmap.md](../../DEV/Agent应用/2025-autumn/AgentApplicationRoadmap.md)
+- **学习路径**：[AgentApplicationRoadmap.md](../../方向/DEV/Agent应用/2025-autumn/AgentApplicationRoadmap.md)
 
 ### 数学建模
 
 - **负责人**：Yan Hongyang
 - **学习内容**：了解数学建模基础，学习各种建模方法，选择专业方向（编程手/论文手/建模手），参与竞赛训练。
-- **学习路径**：[MathematicalModelingRoadmap.md](../../数模/2025-autumn/MathematicalModelingRoadmap.md)
+- **学习路径**：[MathematicalModelingRoadmap.md](../../方向/数模/2025-autumn/MathematicalModelingRoadmap.md)
 
 ### 嵌入式系统
 
 - **负责人**：Yan Hongyang
 - **学习内容**：学习51单片机、STM32开发，掌握Linux系统，进行硬件调试和嵌入式应用开发。
-- **学习路径**：[EmbeddedSystemsRoadmap.md](../../嵌入式/2025-autumn/EmbeddedSystemsRoadmap.md)
+- **学习路径**：[EmbeddedSystemsRoadmap.md](../../方向/嵌入式/2025-autumn/EmbeddedSystemsRoadmap.md)
 
 ## 学期学习结构
 
 ```text
-AI/
-├── 数据分析/2025-autumn/
-│   ├── DataAnalysisRoadmap.md
-│   ├── learning-materials/
-│   └── report-records/
-└── 深度学习/2025-autumn/
-    ├── DeepLearningRoadmap.md
-    ├── learning-materials/
-    └── report-records/
-DEV/
-├── DEV/2025-autumn/                     # 前后端
-│   ├── Develop.md
-│   ├── learning-materials/
-│   └── report-records/
-└── Agent应用/2025-autumn/
-    ├── AgentApplicationRoadmap.md
-    ├── learning-materials/
-    └── report-records/
-嵌入式/2025-autumn/
-├── EmbeddedSystemsRoadmap.md
-├── learning-materials/
-└── report-records/
-数模/2025-autumn/
-├── MathematicalModelingRoadmap.md
-├── learning-materials/
-└── report-records/
+方向/
+├── AI/
+│   ├── 数据分析/2025-autumn/
+│   └── 深度学习/2025-autumn/
+├── DEV/
+│   ├── DEV/2025-autumn/                 # 前后端
+│   └── Agent应用/2025-autumn/
+├── 嵌入式/2025-autumn/
+└── 数模/2025-autumn/
 ```
 
 ## 学习资源管理

@@ -9,16 +9,17 @@
 ### 仓库结构
 
 ```bash
-{学习方向}/
-└── {年份}/                      # 如 2025-spring
-    ├── {方向}介绍.md            # 方向介绍 / 学习路径
-    ├── note/                    # 学习笔记
-    └── path/                    # 周任务与路径文档
+方向/
+└── {学习方向}/
+    └── {子方向}/{年份}/         # 如 2025-spring
+        ├── {方向}介绍.md        # 方向介绍 / 学习路径
+        ├── note/                # 学习笔记
+        └── path/                # 周任务与路径文档
 
 templates/roadmap_template.md    # 学习路径模板
 ```
 
-当前春季学期对应目录示例：`ACM/2025-spring/`、`AI/AI/2025-spring/`、`CTF/2025-spring/`、`DEV/DEV/2025-spring/`、`嵌入式/2025-spring/`、`数模/2025-spring/`。
+当前春季学期对应目录示例：`方向/ACM/2025-spring/`、`方向/AI/AI/2025-spring/`、`方向/CTF/2025-spring/`、`方向/DEV/DEV/2025-spring/`、`方向/嵌入式/2025-spring/`、`方向/数模/2025-spring/`。
 
 ### 学习路径
 

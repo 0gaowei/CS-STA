@@ -55,15 +55,16 @@ This is an open source community project based on Git collaboration. Project mai
 
 ### Project Structure
 
-Learning directions live at the repository root. Children of a group are sub-tracks; the year folder goes under the sub-track. If a group has no split, the sub-track can reuse the group name (e.g. `AI/AI`).
+Learning directions live under `方向/`, at the same level as `docs/`, `project/`, and `templates/`. Children of a group are sub-tracks; the year folder goes under the sub-track. If a group has no split, the sub-track can reuse the group name (e.g. `方向/AI/AI`).
 
 ```text
-{Learning Direction}/                             # e.g. AI, DEV, 嵌入式, 数模, ACM, CTF
-└── {Sub-direction}/                              # e.g. AI/AI, AI/深度学习, DEV/Agent应用
-    └── {Year}/                                   # e.g. 2025-spring, 2025-autumn
-        ├── {Direction Name}Roadmap.md
-        ├── learning-materials/
-        └── report-records/
+方向/                                             # all learning directions
+└── {Learning Direction}/                         # e.g. AI, DEV, 嵌入式, 数模, ACM, CTF
+    └── {Sub-direction}/                          # e.g. AI, 深度学习, Agent应用
+        └── {Year}/                               # e.g. 2025-spring, 2025-autumn
+            ├── {Direction Name}Roadmap.md
+            ├── learning-materials/
+            └── report-records/
 ```
 
 Cross-direction project artifacts are in `project/`, templates in `templates/`, general notes in `docs/`, and past-year semester overviews in `docs/往年说明/`.
@@ -105,7 +106,7 @@ Used to store open source learning projects for each direction. Please follow th
 ### Expansion Management
 
 - **New Year Creation**: Create a new year directory under the relevant direction (e.g. `2026-spring`) to organize a new semester's plan.
-- **Learning Direction Expansion**: Adding new learning directions is supported; create a new directory at the repository root according to the standard structure.
+- **Learning Direction Expansion**: Adding new learning directions is supported; create a new directory under `方向/` according to the standard structure.
 - **Resource Migration**: Supports the migration and reuse of learning resources across different years.
 
 ## Contact Information
