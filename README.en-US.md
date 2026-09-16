@@ -2,7 +2,7 @@
 
 ## Project Introduction
 
-This project is a systematic open source learning plan. Each semester serves as a cycle, covering learning in several major technical directions. Through structured learning paths and resource management, learners can quickly get started in various technical fields.
+This project is a systematic open source learning plan. Learning directions sit at the repository root, with year (semester) directories underneath, covering several major technical fields. Through structured learning paths and resource management, learners can quickly get started in various technical fields.
 
 ### Project Goals
 
@@ -22,12 +22,18 @@ This project is a systematic open source learning plan. Each semester serves as 
 
 This project supports learning in multiple technical directions, each with a detailed roadmap and resource management. The current main supported directions are:
 
-- **Agent Applications**: Understand Agent concepts, learn to build Agent applications on the Coze platform, master basic Python syntax, and learn LLM API calls and Agent framework development.
-- **Data Analysis**: Learn the basics of data mining, master tools such as Python, Numpy, and Pandas, learn machine learning algorithms, and perform data visualization analysis.
-- **Deep Learning**: Introduction to deep learning basics, learn models such as linear regression, logistic regression, and neural networks, and master the PyTorch framework.
-- **Web Development**: Learn computer network basics, master front-end and back-end development technologies, learn API design and database interaction, and build a personal blog project.
-- **Mathematical Modeling**: Understand the basics of mathematical modeling, learn various modeling methods, choose a professional role (Programmer/Writer/Modeler), and participate in competition training.
-- **Embedded Systems**: Learn 51 MCU and STM32 development, master the Linux system, and perform hardware debugging and embedded application development.
+- **AI**
+  - **AI**: General introduction to AI and its sub-fields.
+  - **Data Analysis**: Learn the basics of data mining, master tools such as Python, Numpy, and Pandas, learn machine learning algorithms, and perform data visualization analysis.
+  - **Deep Learning**: Introduction to deep learning basics, learn models such as linear regression, logistic regression, and neural networks, and master the PyTorch framework.
+- **DEV**
+  - **DEV**: Learn computer network basics, master front-end and back-end development technologies, learn API design and database interaction, and build a personal blog project.
+  - **Agent Applications**: Understand Agent concepts, learn to build Agent applications on the Coze platform, master basic Python syntax, and learn LLM API calls and Agent framework development.
+  - **Game Development**: Introduction to Unity and related game development.
+- **数模 (Mathematical Modeling)**: Understand the basics of mathematical modeling, learn various modeling methods, choose a professional role (Programmer/Writer/Modeler), and participate in competition training.
+- **嵌入式 (Embedded Systems)**: Learn 51 MCU and STM32 development, master the Linux system, and perform hardware debugging and embedded application development.
+- **ACM**: Introduction to algorithms and programming contests.
+- **CTF**: Introduction to cybersecurity and capture-the-flag contests.
 
 ## Git Usage Instructions and Recommended Learning Resources
 
@@ -49,20 +55,18 @@ This is an open source community project based on Git collaboration. Project mai
 
 ### Project Structure
 
-This project uses one semester as a cycle, with independent learning directories for each semester. The typical semester structure is as follows:
+Learning directions live at the repository root. Children of a group are sub-tracks; the year folder goes under the sub-track. If a group has no split, the sub-track can reuse the group name (e.g. `AI/AI`).
 
 ```text
-{Semester Name}/
-├── {Learning Direction 1}/                       # Learning direction directory
-│   ├── {Direction Name}Roadmap.md               # Learning roadmap
-│   ├── learning-materials/                      # Learning materials directory
-│   └── report-records/                          # Report records directory
-├── {Learning Direction 2}/                       # Learning direction directory
-│   ├── {Direction Name}Roadmap.md               # Learning roadmap
-│   ├── learning-materials/                      # Learning materials directory
-│   └── report-records/                          # Report records directory
-└── ...                                          # Other learning directions
+{Learning Direction}/                             # e.g. AI, DEV, 嵌入式, 数模, ACM, CTF
+└── {Sub-direction}/                              # e.g. AI/AI, AI/深度学习, DEV/Agent应用
+    └── {Year}/                                   # e.g. 2025-spring, 2025-autumn
+        ├── {Direction Name}Roadmap.md
+        ├── learning-materials/
+        └── report-records/
 ```
+
+Cross-direction project artifacts are in `project/`, templates in `templates/`, general notes in `docs/`, and past-year semester overviews in `docs/往年说明/`.
 
 ### Learning Resource Management
 
@@ -100,9 +104,9 @@ Used to store open source learning projects for each direction. Please follow th
 
 ### Expansion Management
 
-- **New Semester Creation**: New semester directories can be created to organize learning plans for different periods.
-- **Learning Direction Expansion**: Adding new learning directions is supported; simply create directories according to the standard structure.
-- **Resource Migration**: Supports the migration and reuse of learning resources across different semesters.
+- **New Year Creation**: Create a new year directory under the relevant direction (e.g. `2026-spring`) to organize a new semester's plan.
+- **Learning Direction Expansion**: Adding new learning directions is supported; create a new directory at the repository root according to the standard structure.
+- **Resource Migration**: Supports the migration and reuse of learning resources across different years.
 
 ## Contact Information
 
